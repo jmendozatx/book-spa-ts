@@ -1,69 +1,47 @@
-# base
+# Book 📚
 
-## Project setup
+Book is a simple Vue + Vuetify application that allows users to browse a collection of books, sign up, log in, and select their favorite book.
 
+## Features
+
+- User registration and authentication
+- Viewing all books in the collection
+- Highlighting and updating a user’s favorite book
+- Route Guards
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js & npm
+- A running backend from [Book Backend](https://github.com/book-io/web-interview-project-signup-wizard) (assumed to be running on `http://localhost:9000` for this README)
+
+### Installation
+
+1. Clone the repository:
 ```
-# yarn
-yarn
+git clone <repository_url>
+```
+2. Navigate to the project directory:
+```
+cd path_to_directory
+```
 
-# npm
+3. Install the dependencies:
+```
 npm install
-
-# pnpm
-pnpm install
-
-# bun
-bun install
 ```
 
-### Compiles and hot-reloads for development
-
+4. Start the development server:
 ```
-# yarn
-yarn dev
-
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# bun
-pnpm run dev
+npm run serve
 ```
 
-### Compiles and minifies for production
 
-```
-# yarn
-yarn build
+The application should now be running locally.
 
-# npm
-npm run build
+## Usage
 
-# pnpm
-pnpm build
-
-# bun
-pnpm run build
-```
-
-### Lints and fixes files
-
-```
-# yarn
-yarn lint
-
-# npm
-npm run lint
-
-# pnpm
-pnpm lint
-
-# bun
-pnpm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://vitejs.dev/config/).
+1. **Sign Up**: Register a new user account.
+2. **Login**: Authenticate with existing credentials.
+3. **Dashboard**: Once logged in, view all books and highlight your favorite.
